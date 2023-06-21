@@ -52,8 +52,8 @@ const app = {
     <!-- BOTONES -->
     <div id="botones">
       <button class="btn">Urgente</button>
-      <button class="btn">Importante</button>
-      <button class="btn">hecho</button>
+      <button class="btnI">Importante</button>
+      <button class="btnH">hecho</button>
     </div>
 
     <!-- BOTONES (V.2) -->
@@ -72,7 +72,7 @@ const app = {
           </select>
         </label>
         </div>
-          <button id="btnE">Eliminar</button>
+          <button class="btnE">Eliminar</button>
         </div>
       </div>`;
 
@@ -82,6 +82,8 @@ const app = {
   eliminarTarea(title) {
     console.log(title);
   },
+
+
 
 };
 
